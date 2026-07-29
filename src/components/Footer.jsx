@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Globe2, Mail, MapPin } from "lucide-react";
+import { Globe2, Mail, MapPin, Phone } from "lucide-react";
 import { FaFacebookF, FaInstagram, FaXTwitter } from "react-icons/fa6";
 
 const quickLinks = [
@@ -97,6 +97,16 @@ export default function Footer() {
                 />
                 <a href="mailto:info@jurisnexa.org" className="hover:text-gold">
                   info@jurisnexa.org
+                </a>
+              </li>
+              <li className="flex items-center gap-3">
+                <Phone
+                  size={20}
+                  className="shrink-0 text-gold"
+                  aria-hidden="true"
+                />
+                <a href="mailto:info@jurisnexa.org" className="hover:text-gold">
+                  403-404-7146
                 </a>
               </li>
               <li className="flex items-center gap-3">

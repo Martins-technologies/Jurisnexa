@@ -42,6 +42,12 @@ export default function ContactUs() {
                 </a>
               </li>
               <li>
+                <span className="font-semibold text-navy">Phone:</span>{" "}
+                <a href="mailto:info@jurisnexa.org" className="hover:text-gold">
+                  403-404-7146
+                </a>
+              </li>
+              <li>
                 <span className="font-semibold text-navy">Location:</span> India
               </li>
               <li>
